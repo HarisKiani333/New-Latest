@@ -2539,7 +2539,7 @@ Transform:
   m_GameObject: {fileID: 347887349696045735}
   m_LocalRotation: {x: 0, y: -0.9989583, z: 0, w: 0.045633186}
   m_LocalPosition: {x: 104.05, y: 0, z: 127.65}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1.0806}
   m_Children:
   - {fileID: 347887349696020165}
   - {fileID: 347887349696020163}
@@ -2576,10 +2576,10 @@ BoxCollider:
   m_GameObject: {fileID: 347887349696045735}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.1217918, y: 1.7802515, z: 0.55777323}
-  m_Center: {x: 0.06089589, y: 0.75849533, z: 0.007082819}
+  m_Size: {x: 1.1217918, y: 1.7802515, z: 0.95772564}
+  m_Center: {x: 0.06089586, y: 0.7584944, z: 0.20705901}
 --- !u!135 &347887349495116693
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2600,17 +2600,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 347887349696045735}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 800d6ac6e6f27c8468b3b8036fffcd43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sensitity: 1
-  targetInSight: 0
-  fieldOfVision: 90
-  myEyes: {fileID: 347887350304343361}
-  npcTransform: {fileID: 0}
-  lastKnownSighting: {x: 0, y: 0, z: 0}
 --- !u!114 &347887349495116691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2658,8 +2652,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77de4973f48f224e9c2da80961a8572, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentState: 0
-  maxDemage: 10
 --- !u!114 &1542068733
 MonoBehaviour:
   m_ObjectHideFlags: 0

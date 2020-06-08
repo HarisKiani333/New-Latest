@@ -7,7 +7,7 @@ using UnityEngine.AI;
 public class Enemy_FSM : MonoBehaviour
 {
 
-    public enum EMENY_STATE { PATROL, CHASE, ATTACK }
+   /* public enum EMENY_STATE { PATROL, CHASE, ATTACK }
 
 
 
@@ -144,7 +144,7 @@ public class Enemy_FSM : MonoBehaviour
         }
 
         yield break;
-    }
+    }*/
 }
 
 

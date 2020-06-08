@@ -17,6 +17,7 @@ public class PlayerGun : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            GetComponent<AudioSource>().Play();
             Debug.Log("Fire!");
             GameObject bulletObject = Instantiate(bulletPrefab);
             bulletObject.transform.position = PlayerCamera.transform.position

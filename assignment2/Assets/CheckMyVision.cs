@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CheckMyVision : MonoBehaviour
 {
-    public enum enmSensitity { HIGH, LOW };
+    /*public enum enmSensitity { HIGH, LOW };
 
     public enmSensitity Sensitity = enmSensitity.HIGH;
     public bool targetInSight = false;
@@ -93,5 +93,5 @@ public class CheckMyVision : MonoBehaviour
     void Update()
     {
 
-    }
+    }*/
 }
